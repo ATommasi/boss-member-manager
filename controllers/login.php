@@ -2,6 +2,7 @@
 include("../helpers/assign.php");
 
 
+
 if ($_REQUEST["action"] == "logout")  {
    $c["User"]->Logout();
 
