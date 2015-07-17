@@ -11,8 +11,8 @@
 	$commands = array(
 		'echo $PWD',
 		'whoami',
-		'git pull origin stable',
-		'git status origin stable',
+		'git pull --rebase origin/stable',
+		'git status origin/stable',
 		'git submodule sync',
 		'git submodule update',
 		'git submodule status',
