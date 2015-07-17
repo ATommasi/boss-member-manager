@@ -1,4 +1,6 @@
 <?php
+#// logout controller
+
 include("../helpers/assign.php");
 
 
