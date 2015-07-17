@@ -1,0 +1,41 @@
+/* Color of Worlds */
+.world-red { background-color: #AA4644!important; background-image: url('../images/black-paper.png'); }
+.world-green { background-color: #89A54E!important;  background-image: url('../images/black-paper.png');}
+.world-blue { background-color: #4573A7!important;  background-image: url('../images/black-paper.png');}
+
+/* GW2 Matchups */
+.gw2-wvw-matchups ul.gw2-matchups { margin: 0; padding: 0; }
+.gw2-wvw-matchups ul.gw2-matchups li.match { padding: 4px; margin: 0 0 5; display: block; list-style:none; }
+.gw2-wvw-matchups ul.gw2-matchups li.match:last-child { margin-bottom: 0; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span { display: block; color: #fff; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span.world { font-size: 16px; line-height: 16px; margin-bottom: 2px; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span.points { font-size: 14px;line-height: 15px; }
+.gw2-wvw-matchups ul.gw2-matchups li.match span.world.home-world { 
+   padding-left: 14px; 
+   background-image: url('../images/gw2-wvw-matchups.png');
+   background-position: -10px 2px;
+   background-size: 32px;
+   background-repeat: no-repeat; 
+}
+
+/* GW2 Objectives */
+.gw2-wvw-matchups ul.gw2-objectives { margin: 0; padding: 0; margin-top: 5px;}
+.gw2-wvw-matchups ul.gw2-objectives li { height: 32px; border-bottom: 1px solid #000; margin: 0px; padding: 0px; list-style:none; }
+.gw2-wvw-matchups ul.gw2-objectives li.home-world { background-image: url('../images/gw2-wvw-matchups.png'); background-repeat: no-repeat; background-position: 10px center; background-size: 32px;}
+.gw2-wvw-matchups ul.gw2-objectives li span { background: #272829; width: 23%; line-height: 32px; margin: 0px; padding: 0px; float: left;text-align: center;font-size: 14px; color: #AB9F82;}
+.gw2-wvw-matchups ul.gw2-objectives li span.world { width: 8%; text-indent: -9999px; }
+.gw2-wvw-matchups ul.gw2-objectives li.home-world span.world { background-image: url('../images/gw2-wvw-matchups.png'); background-repeat: no-repeat; background-position: center 11px; background-size: 32px;}
+.gw2-wvw-matchups ul.gw2-objectives li.home-world span { font-weight: bold; color: #AB9F82; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span { cursor:help; text-indent: -9999px; background: url('../images/gw2-wvw-matchups.png') no-repeat center; background-size: 32px 200px; line-height:32px;}
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.world { background: none; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.camp { background-position: center -40px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.tower { background-position: center -80px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.keep { background-position: center -120px; }
+.gw2-wvw-matchups ul.gw2-objectives li.leyend span.castle { background-position: center -160px; }
+
+.livemap {
+   text-align:center;
+}
+
+
+
